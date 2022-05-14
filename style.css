@@ -13,9 +13,9 @@ body {
 /***HEADER***/
 
 .logo {
-  font-size: 80px;
+  font-size: 60px;
   position: absolute;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 50px;
 }
 
@@ -29,7 +29,7 @@ header {
 .header-container {
   display: flex;
   justify-content: flex-end;
-  padding: 15px 10%;
+  /* padding: 15px 10%; */
 }
 
 label {
@@ -50,7 +50,7 @@ a {
   display: inline-block;
   padding: 10px 20px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   list-style: none;
   transition: all 0.3s ease 0s;
@@ -62,13 +62,13 @@ a:hover {
 }
 
 button {
-  padding: 20px 20px;
+  padding: 10px 10px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 110px;
 }
 
@@ -100,7 +100,7 @@ button:hover {
 }
 
 .name {
-  font-size: 85px;
+  font-size: 45px;
   color: #0088a9;
   margin-bottom: 10px;
 }
@@ -110,12 +110,12 @@ button:hover {
 }
 
 .woman-image {
-  margin-top: 110px;
+  margin-top: 90px;
 }
 
 .img-about {
-  width: 90%;
-  height: 90%;
+  width: 60%;
+  height: 60%;
 }
 
 /***SKILLS***/
@@ -125,16 +125,16 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 200px 40px 30px;
+  padding: 100px 40px 30px;
 }
 
 .skills-title {
-  font-size: 60px;
+  font-size: 40px;
   color: #0088a9;
 }
 
 .skills-description {
-  font-size: 28px;
+  font-size: 20px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
@@ -149,7 +149,7 @@ button:hover {
 
 .skill-icon,
 .colored {
-  font-size: 150px;
+  font-size: 80px;
 }
 
 .card {
@@ -160,8 +160,8 @@ button:hover {
   border: 2px solid white;
   border-radius: 10px;
   width: 30%;
-  margin: 20px;
-  height: 30vh;
+  padding: 40px;
+  margin: 10px;
   transition: border-color 0.6s linear;
 }
 
@@ -170,7 +170,7 @@ button:hover {
 }
 
 .card-name {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -182,7 +182,7 @@ button:hover {
   justify-content: center;
   text-align: center;
   margin-top: 30px;
-  padding: 100px 40px 100px;
+  padding: 50px 40px 50px;
   margin-top: 100px;
   margin-bottom: 100px;
   background-color: #0088a9;
@@ -197,18 +197,18 @@ button:hover {
 }
 
 .quote-icon {
-  font-size: 150px;
+  font-size: 80px;
   margin-bottom: 50px;
 }
 
 .quote {
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   margin-bottom: 50px;
 }
 
 .author {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 50px;
 }
 
@@ -223,12 +223,12 @@ button:hover {
 }
 
 .project-title {
-  font-size: 60px;
+  font-size: 40px;
   color: #0088a9;
 }
 
 .project-description {
-  font-size: 28px;
+  font-size: 20px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
@@ -269,8 +269,7 @@ button:hover {
 
 .contact-section {
   border-radius: 1rem;
-  padding: 150px 40px 350px;
-  max-width: 1800px;
+  padding: 80px 20px 80px;
   margin: auto;
   border: 1px solid #edf0f1;
   margin-bottom: 200px;
@@ -290,19 +289,19 @@ button:hover {
 
 .contact {
   width: 50%;
-  margin-left: 50px;
-  padding-left: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .contact-title {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 30px;
   color: #0088a9;
 }
 
 .contact-description {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 30px;
   line-height: 1.4;
 }
@@ -316,7 +315,7 @@ button:hover {
 }
 
 .item {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .item:hover {
@@ -327,13 +326,13 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-left: 50px;
-  padding-left: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .contact-card {
-  width: 600px;
-  height: 500px;
+  width: 500px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -349,10 +348,9 @@ button:hover {
 
 .label {
   color: #edf0f1;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 10px;
 }
 
 .input:focus {
@@ -365,19 +363,18 @@ button:hover {
 }
 
 .input {
-  line-height: 2;
+  line-height: 1;
   padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.5rem;
   border-radius: 30px;
   box-shadow: inset 0px 0px 20px 0px #0088a9;
-  width: 100%;
+  width: 80%;
 }
 
 .submit-button {
   margin-top: 50px;
-  transform: translateY(250px);
 }
 
 /***FOOTER***/
@@ -388,7 +385,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 40px 100px;
+  padding: 80px 40px 80px;
 }
 
 .footer-item a {
