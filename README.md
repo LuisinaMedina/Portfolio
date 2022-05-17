@@ -6,9 +6,7 @@ This is the first project assigned to me during the bootcamp. I followed the str
 
 ## Demo
 
-Live Demo on Netlify: https://luisinamedina.netlify.app/
-
-<img src="Screenshot.png" width="600" height="400"/>
+Live Demo on Vercel: https://luisinamedina.vercel.app/
 
 ## Tools
 
@@ -16,7 +14,7 @@ Live Demo on Netlify: https://luisinamedina.netlify.app/
 - [CSS]
 - [Github]
 - [Visual Studio Code]
-- [Netlify]
+- [Vercel]
 
 ## Future features
 
